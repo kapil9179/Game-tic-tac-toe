@@ -106,17 +106,17 @@
     display:none;
 }
 
-@media (max-width:768px) {
+@media (max-width:500px) {
     .box-container{
         width:100%;
         height:100vh;
     }
     .containbox{
-        width:60%;
-        height:61vh;
+        width:80%;
+        height:58vh;
         box-shadow: 0px 0px 1px 2px;
         border-radius:10px;
-        margin-top:70px;
+        margin-top:50px;
     }
     .resetbtn button{
         width:100px;
