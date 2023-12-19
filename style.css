@@ -38,12 +38,14 @@
     justify-content: center;
 }
 .containbox{
-    width:20%;
-    height:400px;
+    width:350px;
+    height:fit-content;
     text-align: center;
      padding-top: 20px;  
      display: flex;
      flex-wrap: wrap;
+     box-shadow: 0px 0px 3px 2px cadetblue;
+     margin-top:100px;
 } 
 .containbox1{
     width:100%;
@@ -51,6 +53,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap:1rem;
+    margin-bottom: 20px;
 }
 .box{
    flex-grow: 0 ;
@@ -74,12 +77,23 @@
     width:150px;
     height:40px;
     border: none;
-    border-radius:10px;
+    border-radius:5px;
     box-shadow: 0px 0px 0 2px  cadetblue;
-
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
 } 
 #newgame{
     box-shadow: 0px 0px 0 2px cadetblue;
+    width:150px;
+    height:40px;
+    border: none;
+    border-radius:5px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
 }
 .msg-container{
     width:100%;
@@ -106,26 +120,40 @@
     display:none;
 }
 
-@media (max-width:500px) {
-    .box-container{
-        width:100%;
-        height:100vh;
+/* @media (max-width:490px) {
+    /* .containbox{
+        width:350px;
+        height: fit-content;
+        box-shadow: 0px 0px 3px 2px cadetblue;
+        margin-top:30%;
+        border-radius: 10px;
+
+    } */
+    /* .containbox1{
+        margin-bottom: 20px;
     }
+      */
+    /* .resetbtn button{
+        margin-bottom: 10px;
+        width:7rem;
+        height:2rem;
+        box-shadow: none;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+} */
+
+/* @media (min-width:490px)and(max-width:1024px) {
     .containbox{
         width:80%;
-        height:58vh;
-        box-shadow: 0px 0px 1px 2px;
-        border-radius:10px;
-        margin-top:50px;
+        border: 1px solid black;
+        height: fit-content;
+        box-shadow: 0px 0px 3px 2px cadetblue;
+        margin-top:30%;
+        border-radius: 10px;
+
     }
-    .resetbtn button{
-        width:100px;
-        height:25px;
-        font-weight: 400;
-        font-size: 1rem;
-        border: none;
-        border-radius:10px;
-        box-shadow: 0px 0px 1px 2px;
-    
-    } 
-}
+
+} */
+
