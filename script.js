@@ -1,4 +1,4 @@
-// step first get element
+ // step first get element
     const mode= document.getElementById("mode");
     const boxes= document.querySelectorAll(".box");
     const winnercandidate= document.getElementById("winnercandidate");
@@ -101,8 +101,8 @@
          val.innerText="";
          val.disabled=false;
          msg.classList.add("hide");
-         
        }
+       casenodefeat.innerText="";
      }
 
     const showwinner=(winner)=>{
